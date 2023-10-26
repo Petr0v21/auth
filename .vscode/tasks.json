@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "presentation": {
+    "echo": false,
+    "reveal": "always",
+    "focus": false,
+    "panel": "dedicated",
+    "showReuseMessage": true
+  },
+  "tasks": [
+    {
+      "label": "start",
+      "command": "npm run start",
+      "args": [],
+      "type": "shell",
+      "problemMatcher": []
+    },
+    {
+      "label": "dev",
+      "command": "npm run start:dev",
+      "args": [],
+      "type": "shell",
+      "problemMatcher": []
+    },
+    {
+      "label": "build",
+      "command": "npm run build",
+      "args": [],
+      "type": "shell",
+      "problemMatcher": []
+    },
+    {
+      "label": "prod",
+      "command": "npm run start:prod",
+      "args": [],
+      "type": "shell",
+      "problemMatcher": []
+    }
+  ]
+}
